@@ -19,4 +19,27 @@ Any processor can be used as long as you can make it appear to Windows as a USB 
 
 Into the Nextion "button push" event you are going to enter a midi NOTE ON and into the "button release" event, a NOTE OFF.
 The Control-Surface library is going to inform Thetis that a MIDI event has been sent. Thetis, through its Midi interface, is going to tell you what note number it just received and allow you to map that note to a button on the Thetis interface.
+An example of that for the mute button:
+
+under the "Touch Press Event": 
+
+printh 91
+
+printh 11
+
+printh 7F
+
+
+under the "Touch Release Event":
+
+printh 81
+
+printh 11
+
+printh 0
+
+Which is a midi note on event and a midi note off event with the middle printh, the midi note.
+
+note: On the main display window, open the tab "Program.s" and add: baud=31250//Configure baudrate
+
 
