@@ -1,5 +1,5 @@
 # Thetis_MIDI_controller
-Control Thetis with your own Midi Controller
+Control Thetis or deskHPSDR with your own Midi Controller
 
 This project was inspired by another ham, JI1UDD, who had made up his controller with a tuning knob and two switches:
 https://github.com/ji1udd/VFO-Controller
