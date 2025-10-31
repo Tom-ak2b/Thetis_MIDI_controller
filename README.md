@@ -15,7 +15,7 @@ The first one is a 2.5" tochscreen shown here with a 3D printed case found on Th
 
 For my project I used an Arduino Micro Pro, Nextion 2.5" display, one rotary encoder, and two 10K pots.
 You will need the Nextion Editor (Windows only), Arduino IDE and the above mentioned Control-Surface library.
-Any processor can be used as long as you can make it appear to Windows as a USB MIDI device. Try getting a Micro Pro with a USB C port so you can power the larger Nextion displays directly from the board.
+Any processor can be used as long as you can make it appear to Windows or Linux as a USB MIDI device. Try getting a Micro Pro with a USB C port so you can power the larger Nextion displays directly from the board.
 
 Into the Nextion "button push" event you are going to enter a midi NOTE ON and into the "button release" event, a NOTE OFF.
 The Control-Surface library is going to inform Thetis that a MIDI event has been sent. Thetis, through its Midi interface, is going to tell you what note number it just received and allow you to map that note to a button on the Thetis interface.
@@ -40,6 +40,6 @@ printh 0
 
 Which is a midi note on event and a midi note off event with the middle printh, the midi note.
 
-note: On the Nextion Editor main display window, open the tab "Program.s" and add: baud=31250//Configure baudrate
-In the Nextion Editor you can select the display type when you start the program and use "Import" to select one of the ".HMI" listed above. You will most likely have to do some heavy visual editing if you are using a different sized display but you will find several examples of push button events. The "Tune" button on the smaller display shows how I used a "delay" function to keep the button pressed long enough so that my AH-4 has enough time to properly tune.
+note: On the Nextion Editor main display window, open the tab "Program.s" and add: baud=31250//Configure baudrate.
+In the Nextion Editor you select the display type when you start the program and use "Import" to select one of the ".HMI" listed above. You will most likely have to do some heavy visual editing if you are using a different sized display but you will find several examples of push button events. The "Tune" button on the smaller display shows how I used a "delay" function to keep the button pressed long enough so that my AH-4 has enough time to properly tune.
 
