@@ -42,7 +42,7 @@ Which is a midi note on event and a midi note off event with the middle printh, 
 
 On the Nextion Editor main display window, open the tab "Program.s" and add: baud=31250 //Configure baudrate.
 
-In the Nextion Editor you select the display type when you start the program and use "Import" to select one of the ".HMI" listed above. You will most likely have to do some visual editing if you are using a different size display but the examples of push button events should give you an idea how this all works. The "Tune" button on the smaller display shows how I used a "delay" function to keep the button pressed long enough so that my AH-4 has enough time to properly tune. 
+In the Nextion Editor you select the display type when you start the program and use "Import" to select one of the ".HMI" files listed above. You will most likely have to do some visual editing if you are using a different size display but the examples of push button events should give you an idea how this all works. The "Tune" button on the smaller display shows how I used a "delay" function to keep the button pressed long enough so that my AH-4 has enough time to properly tune. 
 
 You can personalize this to your own whim. I have a Hermes Lite II and use it with both Thetis under Windows and deskHPSDR with Linux. I operate mostly cw so I setup my controller to that end.
 
