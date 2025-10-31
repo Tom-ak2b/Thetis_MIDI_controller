@@ -41,5 +41,5 @@ printh 0
 Which is a midi note on event and a midi note off event with the middle printh, the midi note.
 
 note: On the Nextion Editor main display window, open the tab "Program.s" and add: baud=31250//Configure baudrate
-
+In the Nextion Editor you can select the display type when you start the program and use "Import" to select one of the ".HMI" listed above. You will most likely have to do some heavy visual editing if you are using a different sized display but you will find several examples of push button events. The "Tune" button on the smaller display shows how I used a "delay" function to keep the button pressed long enough so that my AH-4 has enough time to properly tune.
 
