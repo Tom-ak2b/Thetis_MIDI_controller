@@ -40,6 +40,6 @@ printh 0
 
 Which is a midi note on event and a midi note off event with the middle printh, the midi note.
 
-note: On the main display window, open the tab "Program.s" and add: baud=31250//Configure baudrate
+note: On the Nextion Editor main display window, open the tab "Program.s" and add: baud=31250//Configure baudrate
 
 
